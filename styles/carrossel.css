@@ -1,0 +1,25 @@
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper_pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .swiper {
+        width: 60%;
+    }
+
+}
+
+@media screen and (min-width: 1160px) {
+    .swiper {
+        width: 40%;
+    }
+}

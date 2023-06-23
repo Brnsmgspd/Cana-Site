@@ -1,0 +1,36 @@
+.container__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container__item {
+    margin: 2em 0.5em;
+}
+
+.container__link {
+    text-decoration: none;
+    font-family: var(--font);
+    color: var(--preto);
+    font-size: 16px;
+    background-color: var(--branco);
+    border-radius: 8px;
+    padding: 0.4em;
+}
+
+.container__link:hover {
+    color: royalblue;
+}
+
+@media screen and (min-width: 1024px) {
+    .container__item {
+        display: inline-block;
+        position: initial;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container__link {
+        padding: 0.5em;
+    }
+}

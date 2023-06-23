@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+            <link rel="stylesheet" href="style.css">
+            <title>Canaã</title>
+        </head>
+
+        <body class="content">
+
+            <header class="container">
+
+                <section class="container__cabeçalho">
+
+                    <h2 class="container__titulo">Comunidade Cristã Canaã</h2>
+                    <img class="logo__cabeçalho" src="IMG/Logo.svg" alt="Imagem Logo Canaã">
+                    <h2 class="container__titulo-tablet">Comunidade Cristã Canaã</h2>
+
+                    
+                    <ul class="container__lista">
+                        <div class="links">    
+                            <li class="container__item">
+                                <a class="container__link" href="#">Programação</a>
+                            </li>
+                            <li class="container__item">
+                                <a class="container__link" href="#">Galeria</a>
+                            </li>
+                            <li class="container__item">
+                                <a class="container__link" href="https://www.instagram.com/comunidade_canaa/" target="_blank">Instagram</a>
+                            </li>
+                        </div>
+                    </ul>
+                    
+                </section>
+            </header>
+
+            <div class="container__imagens-principais">
+                <section class="container__principal">
+                    <img class="imagem imagem1" src="IMG/salmo.svg">
+                </section>
+                <section class="container__principal">
+                    <img class="imagem imagem2" src="IMG/poc.svg">
+                </section>
+            </div>
+
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img class="carrossel__imagem" src="IMG/louvor.svg"></div>
+                  <div class="swiper-slide"><img class="carrossel__imagem" src="IMG/ceia.svg"></div>
+                  <div class="swiper-slide"><img class="carrossel__imagem" src="IMG/crianças.svg"></div>
+                  <div class="swiper-slide"><img class="carrossel__imagem" src="IMG/p3.svg"></div>
+                  <div class="swiper-slide"><img class="carrossel__imagem" src="IMG/roda.svg"></div>
+                  <div class="swiper-slide"><img class="carrossel__imagem" src="IMG/roda mulheres.svg"></div>
+                  <div class="swiper-slide"><img class="carrossel__imagem" src="IMG/ceia1.svg"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+              </div>
+
+              <footer class="rodape">
+                    <img class="Imagem__rodape" src="IMG/Logo 2.svg" alt="Logo Canaã">
+                    <img class="imagem__copyright" src="IMG/copyright.svg">
+              </footer>
+
+
+              <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+              <script> swiper = new Swiper('.swiper', {
+                spaceBetween: 12,
+                slidesPerView: 3,
+                pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                },
+              });
+            </script>
+        </body>
+    </html>

@@ -1,0 +1,14 @@
+.rodape {
+    text-align: center;
+    align-items: center;
+    background-color: var(--preto);
+}
+
+.Imagem__rodape {
+    width: 10%;
+    justify-content: center;
+}
+
+.imagem__copyright {
+    width: 20%;
+}

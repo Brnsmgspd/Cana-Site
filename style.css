@@ -1,0 +1,19 @@
+@import url(styles/header.css);
+@import url(styles/topicos.css);
+@import url(styles/principal.css);
+@import url(styles/carrossel.css);
+@import url(styles/rodape.css);
+
+
+:root {
+    --fundo: #ffe4c4;
+    --preto: #000000;
+    --branco: #ffffff;
+
+    --font:'Limelight';
+}
+
+body {
+    background-color: var(--fundo);
+}
+
