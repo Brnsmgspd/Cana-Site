@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.titulo__programação {
+    text-align: center;
+    font-family: var(--font);
+    font-size: 16px;
+    padding: 1em;
+}
+
+.programação {
+    width: 85%;
+    height: auto;
+    display: inline-block;
+}
+
+.titulo__missão {
+    text-align: center;
+    font-family: var(--font);
+    font-size: 16px;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+
+
+.logo__missão {
+   display: none;
+}
+
+
+.mapa {
+    position: relative;
+    align-items: center;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .titulo__programação {
+        font-size: 32px;
+    }
+
+    .titulo__missão {
+        font-size: 32px;
+    }
+
+    .container__missão{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .programação {
+        width: 60%;
+    }
+    .logo__missão {
+        display: flex;
+        margin: 4em;
+        margin-bottom: 30em;
+    }
+
+    .mapa {
+        margin: 0 8em;
+        width: 70%;
+        background: none;
+    }
+}
+
+@media screen and (min-width: 1160px) {
+    .programação {
+        width: 50%;
+    }
+
+    .mapa {
+        width: 80%;
+    }
+}
